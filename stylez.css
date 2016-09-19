@@ -1,5 +1,5 @@
 		
-		@import 'https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Work+Sans:200|Roboto+Slab:100';
+		@import 'https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Heebo:200|Roboto+Slab:100';
 		* a {
 		text-decoration: none;
 		color: inherit;
@@ -41,13 +41,13 @@
 		}
 		
 		#intra {
-		font-family: "Work Sans", "Roboto Slab", sans-serif;
+		font-family: "Heebo", "Roboto Slab", sans-serif;
 		font-weight: 100;
 		font-size: 60px;
 		}
 		
 		#tag {
-		font-family: "Work Sans", "Roboto Slab", sans-serif;
+		font-family: "Heebo", "Roboto Slab", sans-serif;
 		font-weight: 100;
 		font-style: italic;
 		color: #bbbbbb;
