@@ -1,5 +1,5 @@
 		
-		@import 'https://fonts.googleapis.com/css?family=Montserrat|Chivo|Roboto+Slab:100';
+		@import 'https://fonts.googleapis.com/css?family=Montserrat|Rubik|Roboto+Slab:100';
 		* a {
 		text-decoration: none;
 		color: inherit;
@@ -41,13 +41,13 @@
 		}
 		
 		#intra {
-		font-family: "Chivo", sans-serif;
+		font-family: "Rubik", sans-serif;
 		font-weight: 100;
 		font-size: 60px;
 		}
 		
 		#tag {
-		font-family: "Chivo", sans-serif;
+		font-family: "Roboto Slab", sans-serif;
 		font-weight: 100;
 		font-style: italic;
 		color: #bbbbbb;
