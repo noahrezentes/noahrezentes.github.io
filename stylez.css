@@ -1,5 +1,5 @@
 		
-		@import 'https://fonts.googleapis.com/css?family=Montserrat|Asap|Roboto+Slab:100';
+		@import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:100';
 		* a {
 		text-decoration: none;
 		color: inherit;
@@ -41,7 +41,7 @@
 		}
 		
 		#intra {
-		font-family: "Asap", sans-serif;
+		font-family: "Roboto Slab", sans-serif;
 		font-weight: 100;
 		font-size: 60px;
 		}
