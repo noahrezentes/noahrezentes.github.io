@@ -59,6 +59,8 @@
 		}
 		#tag:before {
 		content: "#";
+		font-weight: bold;
+		
 		}
 		
 		@media screen and (max-aspect-ratio: 1 / 1) {
