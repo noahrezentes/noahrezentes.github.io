@@ -1,5 +1,5 @@
 		
-		@import 'https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Abril+Fatface|Roboto+Slab:100';
+		@import 'https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Roboto+Slab:100';
 		* a {
 		text-decoration: none;
 		color: inherit;
@@ -37,7 +37,7 @@
 		}
 		
 		#headline {
-		font-family: "Abril Fatface", sans-serif;
+		font-family: "Montserrat", sans-serif;
 		}
 		
 		#intra {
