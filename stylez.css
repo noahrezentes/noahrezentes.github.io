@@ -37,17 +37,17 @@
 		}
 		
 		#headline {
-		font-family: "Montserrat", sans-serif;
+		font-family: "Montserrat Alternates", sans-serif;
 		}
 		
 		#intra {
-		font-family: "Roboto Slab", sans-serif;
+		font-family: "Raleway", "Roboto Slab", sans-serif;
 		font-weight: 100;
 		font-size: 60px;
 		}
 		
 		#tag {
-		font-family: "Roboto Slab", sans-serif;
+		font-family: "Raleway", "Roboto Slab", sans-serif;
 		font-weight: 100;
 		font-style: italic;
 		color: #bbbbbb;
