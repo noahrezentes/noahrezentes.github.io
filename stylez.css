@@ -1,74 +1,78 @@
-		
-		@import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:100';
-		* a {
-		text-decoration: none;
-		color: inherit;
-		font-style: italic;
-		font-weight: bold;
-		}
-		* a:hover {
-		text-decoration: line-through;
-		}
-		
-		::selection {
-		background: #bbbbbb;
-		}
-		
-		body {
-		font-size: 72px;
-		padding: 24px;
-		height: 100%;
-		min-height: 100%;
-		position: relative;
-		transition: 0.2s;
-		-webkit-transition: 0.2s;
-		}
-		
-		::-webkit-scrollbar {
-		display: none;
-		}
-		
-		::-moz-scrollbar {
-		display: none;
-		}
-		
-		::-o-scrollbar {
-		display: none;
-		}
-		
-		#headline {
-		font-family: "Montserrat", sans-serif;
-		}
-		
-		#intra {
-		font-family: "Roboto Slab", sans-serif;
-		font-weight: 100;
-		font-size: 60px;
-		}
-		
-		#tag {
-		font-family: "Roboto Slab", sans-serif;
-		font-weight: 100;
-		font-style: italic;
-		color: #bbbbbb;
-		transition: padding-left 0.2s;
-		-webkit-transition: padding-left 0.2s;
-		}
-		#tag:hover {
-		padding-left: 8px;
-		}
-		#tag:before {
-		content: "#";
-		font-weight: bold;
-		
-		}
-		
-		@media screen and (max-aspect-ratio: 1 / 1) {
-		body {
-		font-size: 144px;
-		}
-		
-		#intra {
-		font-size: 144px;
-		}
-		}
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:100';
+
+:root {
+font-family: "Roboto Slab"
+}
+
+* a {
+text-decoration: none;
+color: inherit;
+font-style: italic;
+font-weight: bold;
+}
+* a:hover {
+text-decoration: line-through;
+}
+
+::selection {
+background: #bbbbbb;
+}
+
+body {
+font-size: 72px;
+padding: 24px;
+height: 100%;
+min-height: 100%;
+position: relative;
+transition: 0.2s;
+-webkit-transition: 0.2s;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+::-moz-scrollbar {
+display: none;
+}
+
+::-o-scrollbar {
+display: none;
+}
+
+#headline {
+font-family: "Montserrat", sans-serif;
+}
+
+#intra {
+font-family: "Roboto Slab", sans-serif;
+font-weight: 100;
+font-size: 60px;
+}
+
+#tag {
+font-family: "Roboto Slab", sans-serif;
+font-weight: 100;
+font-style: italic;
+color: #bbbbbb;
+transition: padding-left 0.2s;
+-webkit-transition: padding-left 0.2s;
+}
+#tag:hover {
+padding-left: 8px;
+}
+#tag:before {
+content: "#";
+font-weight: bold;
+
+}
+
+@media screen and (max-aspect-ratio: 1 / 1) {
+body {
+font-size: 144px;
+}
+#intra {
+font-size: 144px;
+}
+}
