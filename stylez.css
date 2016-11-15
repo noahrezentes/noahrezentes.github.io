@@ -1,9 +1,4 @@
-
 @import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:100';
-
-* {
-font-family: "Roboto Slab", sans-serif;
-}
 
 * a {
 text-decoration: none;
@@ -75,4 +70,10 @@ font-size: 144px;
 #intra {
 font-size: 144px;
 }
+}
+
+/* Defaults & general stuff */
+
+p {
+  font-family: "Roboto Slab", sans-serif;
 }
