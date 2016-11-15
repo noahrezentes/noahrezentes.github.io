@@ -67,7 +67,7 @@ font-weight: bold;
 body {
 font-size: 144px;
 }
-#intra {
+#intra, p {
 font-size: 144px;
 }
 }
