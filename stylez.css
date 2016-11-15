@@ -36,11 +36,11 @@ display: none;
 display: none;
 }
 
-#headline {
+#headline, h1 {
 font-family: "Montserrat", sans-serif;
 }
 
-#intra {
+#intra, p {
 font-family: "Roboto Slab", sans-serif;
 font-weight: 100;
 font-size: 60px;
@@ -70,14 +70,4 @@ font-size: 144px;
 #intra {
 font-size: 144px;
 }
-}
-
-/* Defaults & general stuff */
-
-h1 {
-font-family: "Montserrat", sans-serif;
-}
-
-p {
-font-family: "Roboto Slab", sans-serif;
 }
