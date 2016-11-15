@@ -74,6 +74,10 @@ font-size: 144px;
 
 /* Defaults & general stuff */
 
+h1 {
+font-family: "Montserrat", sans-serif;
+}
+
 p {
 font-family: "Roboto Slab", sans-serif;
 }
