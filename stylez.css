@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:100");
-@import "//noahrezentes.github.io/fonts/Main/gotham-bold.ttf";
 
 * a {
 text-decoration: none;
@@ -38,7 +37,7 @@ display: none;
 }
 
 #headline {
-font-family: "Gotham Bold", sans-serif;
+font-family: "Montserrat", sans-serif;
 }
 
 #intra {
