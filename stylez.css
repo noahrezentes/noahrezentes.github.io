@@ -4,6 +4,7 @@
 text-decoration: none;
 color: inherit;
 font-weight: bold;
+font-style: italic;
 }
 * a:hover {
 text-decoration: line-through;
