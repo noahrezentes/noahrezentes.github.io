@@ -36,12 +36,12 @@ display: none;
 display: none;
 }
 
-#headline, h1 {
+#headline {
 font-family: "Montserrat", sans-serif;
 font-size: 72px;
 }
 
-#intra, p {
+#intra {
 font-family: "Roboto Slab", sans-serif;
 font-weight: 100;
 font-size: 60px;
