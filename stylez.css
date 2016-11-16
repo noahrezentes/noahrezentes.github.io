@@ -4,13 +4,13 @@
 transition: .2s;
 -webkit-transition: .2s;
 
-a {
-text-decoration: none;
+* a {
+text-decoration: none; !important
 color: inherit;
 font-style: italic;
 font-weight: bold;
 }
-a:hover {
+* a:hover {
 text-decoration: line-through;
 }
 
