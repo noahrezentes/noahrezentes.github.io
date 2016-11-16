@@ -3,6 +3,7 @@
 * a {
 text-decoration: none;
 color: inherit;
+font-weight: bold;
 }
 * a:hover {
 text-decoration: line-through;
