@@ -68,7 +68,10 @@ font-weight: bold;
 body {
 font-size: 144px;
 }
-#intra, p {
+#headline { 
+font-size: 144px;
+}
+#intra {
 font-size: 144px;
 }
 }
