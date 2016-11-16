@@ -1,16 +1,10 @@
-@import 'https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:100';
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab:100");
 
-*
-transition: .2s;
--webkit-transition: .2s;
-
-a {
-text-decoration: none; !important
+* a {
+text-decoration: none;
 color: inherit;
-font-style: italic;
-font-weight: bold;
 }
-a:hover {
+* a:hover {
 text-decoration: line-through;
 }
 
@@ -21,7 +15,7 @@ background: #bbbbbb;
 body {
 font-size: 72px;
 padding: 24px;
-height: 100%;
+height: auto;
 min-height: 100%;
 position: relative;
 transition: 0.2s;
@@ -42,7 +36,6 @@ display: none;
 
 #headline {
 font-family: "Montserrat", sans-serif;
-font-size: 72px;
 }
 
 #intra {
@@ -64,17 +57,13 @@ padding-left: 8px;
 }
 #tag:before {
 content: "#";
-font-weight: bold;
-
 }
 
 @media screen and (max-aspect-ratio: 1 / 1) {
 body {
 font-size: 144px;
 }
-#headline { 
-font-size: 144px;
-}
+
 #intra {
 font-size: 144px;
 }
