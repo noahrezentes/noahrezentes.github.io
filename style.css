@@ -1,0 +1,47 @@
+* {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.big {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: none;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  background: #222;
+}
+.big .lil {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  font-size: 10vw;
+  width: 15vw;
+  height: 15vw;
+  box-sizing: border-box;
+  border-radius: 25%;
+}
+.big .lil.btn {
+  background: #333;
+  transition: 0.1s;
+/*&:hover
+				background: #444444*/
+}
+.big .lil.btn:active {
+  background: #555;
+}
+.big .lil a {
+  color: #fff;
+  text-decoration: none;
+}
+.big .lil img {
+  background: none;
+  padding-top: 1vw;
+}
